@@ -1,0 +1,58 @@
+body{
+    background-color: #e3f2fd;  /*important same color as in navbar */
+}
+.summary-profile h3{
+    font-style: italic;
+}
+.btn-primary{
+    background-color: lightgreen;
+    font-weight: 500;
+    font-size: 20px;
+    color: blueviolet;  /* text color*/
+}
+.btn-primary:hover{   /* use :hover to change primary color*/
+    background-color: red;
+}
+.summaryme p{
+    line-height: 20px;
+}
+.summary-profile{
+    margin-top: 1rem;
+}
+.summary-profile .picture img{ 
+    width: 400px; height: 350px;
+    border-radius: 60%;
+}
+.social-link i{
+    font-size: 22px;
+    width: 40px;
+    height: 50px;
+}
+.social-link i.fa-facebook{
+    color: #3b5998;
+}
+.social-link i.fa-twitter{
+    color: #1D9BF0;
+}
+.social-link i.fa-instagram{
+    color: #3f729b;
+}
+.social-link i.fa-youtube{
+    color:#FF0000;
+}
+.social-link i.fa-skype{
+    color: #00aff0;
+}
+.about-me{
+    margin-top: 2rem;
+}
+.about-me .profile img{
+    width: 400px; height: 350px;
+
+}
+.about-me .btn-group{
+    margin-right: 4rem;
+}
+.contact .container{
+    margin-top: 50px;
+}
