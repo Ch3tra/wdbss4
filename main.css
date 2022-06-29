@@ -1,14 +1,14 @@
 body{
-    background-color: #e3f2fd;  /*important same color as in navbar */
+    background-color: white;  /*important same color as in navbar */
 }
 .summary-profile h3{
     font-style: italic;
 }
 .btn-primary{
-    background-color: lightgreen;
-    font-weight: 500;
+    background-color: rgb(12, 86, 233);
+    font-weight: 400;
     font-size: 20px;
-    color: blueviolet;  /* text color*/
+    color: rgb(255, 255, 255);  /* text color*/
 }
 .btn-primary:hover{   /* use :hover to change primary color*/
     background-color: red;
@@ -20,8 +20,11 @@ body{
     margin-top: 1rem;
 }
 .summary-profile .picture img{ 
-    width: 400px; height: 350px;
-    border-radius: 60%;
+    width: 380px;
+    border-radius: 50%;
+}
+.summary-profile .container{
+    background-color: #e5e6e7; border-radius: 2%;
 }
 .social-link i{
     font-size: 22px;
